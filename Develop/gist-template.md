@@ -2,6 +2,14 @@
 
 Introductory paragraph (replace this with your text)
 
+## The Purpose
+
+You are a social media user and you have a phobia of kittens. So, you want to implement something that will find tweets with '#kittens' and block them from view.
+
+Or, you are a password generator, and you do not want to give the same person the same password twice.
+
+In both instances, you need something that can go through arrays of information and find matches or patterns, so that something can be done with them. That is exactly the job for regular expressions.
+
 ## Summary
 
 Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
@@ -47,3 +55,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Author
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+
+https://www.youtube.com/watch?v=rhzKDrUiJVk&ab_channel=WebDevSimplified
+
+https://regexr.com/
