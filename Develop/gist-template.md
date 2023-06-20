@@ -69,9 +69,10 @@ a{3} - this will return back "aaa". What is happening is that it is being asked 
 a{2,} - this will return back "aaaa" and "aaa".
 a{4,} - this will return back only "aaaa". What is happening is that it is being asked to find 'a' however many given times, or more. It finds four and three a's the first time, because both of those have two or more a's in a row. The second time, it only finds the one with all four a's in a row.
 
-    This is our example string: "aaaa aaa"
+    This is our example string: "aaaaa aa"
 
-
+a{1,5} - this will return only the "aaaaa".
+a{3,4} - this will return part of the five a's group, but only the first four a's. What is happening is that it is searching for a string of a's that must be larger than 3, but no larger than 4.
 
 ### OR Operator
 
