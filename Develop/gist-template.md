@@ -59,6 +59,18 @@ on? - this will return the 'on' from "won't" and "on". It will also return the s
 
 ow* - this will return the o in "come" and "into". It will also return the "ow" in "own". The star, or asterisk, will look for zero or more of the given letters. It is a combination of the plus sign and the question mark.
 
+    This is our example string: "aaaa aaa"
+
+a{4} - this will return back "aaaa".
+a{3} - this will return back "aaa". What is happening is that it is being asked to find 'a', x number of times.
+
+    This is our example string: "aaaa aaa"
+
+a{2,} - this will return back "aaaa" and "aaa".
+a{4,} - this will return back only "aaaa". What is happening is that it is being asked to find 'a' however many given times, or more. It finds four and three a's the first time, because both of those have two or more a's in a row. The second time, it only finds the one with all four a's in a row.
+
+    This is our example string: "aaaa aaa"
+
 
 
 ### OR Operator
